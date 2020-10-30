@@ -1,0 +1,23 @@
+.navigation {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  position: relative;
+  display: flex;
+  background: $teritiary-color;
+}
+
+.hamburger-menu {
+  width: auto;
+  height: auto;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar {
+  width: 100%;
+}
+
+@import "menu";
+@import "navbar";

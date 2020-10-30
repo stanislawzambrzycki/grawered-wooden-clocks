@@ -1,0 +1,28 @@
+.nav-list {
+  width: auto;
+  height: auto;
+  padding: 1em;
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  & .nav-item {
+    background: inherit;
+    padding: 1em 1em 1em 5em;
+    & .nav-link {
+      background: inherit;
+      font-size: 2rem;
+      color: $secondary-color;
+      text-transform: uppercase;
+      text-decoration: none;
+      @include easeOut;
+      border-bottom: 2px solid transparent;
+      &:hover {
+        border-color: $secondary-color;
+      }
+    }
+
+    &:last-child {
+      margin-left: auto;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.logo {
+  width: 100%;
+  height: auto;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  background: $secondary-color;
+  // background: darken($primary-color, 15);
+  // border-bottom: 1px solid $secondary-color;
+  & h1 {
+    // background: $secondary-color;
+    color: $primary-color;
+    font-size: 3rem;
+  }
+
+  & span {
+    font-family: "Playfair Display", serif;
+  }
+}
